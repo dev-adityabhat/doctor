@@ -1,0 +1,37 @@
+name: my_app
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_gemini: ^2.0.3
+  google_generative_ai: ^0.4.0
+  dash_chat_2: ^0.0.20
+  image_picker: ^1.1.2
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.2.2
+  lottie: ^3.1.2
+  flutter_spinkit:
+  http:
+  permission_handler: ^11.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
